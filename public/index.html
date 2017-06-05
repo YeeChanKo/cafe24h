@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko_KR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Café 24H</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Yrsa:300" rel="stylesheet">
+    <link rel="stylesheet" href="./base.css">
+</head>
+
+<body>
+    <div id="body-wrapper">
+        <header>
+            <h1>Café 24H</h1>
+            <p id="intro-description">hello world</p>
+        </header>
+        <div class="input-group" id="search-box">
+            <span id="current-location-button" class="btn btn-default input-group-addon glyphicon glyphicon-map-marker"></span>
+            <input type="text" class="form-control" placeholder="지금 어디에 계신가요?" aria-describedby="basic-addon1">
+            <span class="btn btn-default input-group-addon" id="basic-addon1">찾기</span>
+        </div>
+        <div id="map"></div>
+    </div>
+    <div id="navbar-wrapper">
+        <div class="navbar-right">
+            <a href="#" class="list-group-item active">Cras justo odio</a>
+            <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+            <a href="#" class="list-group-item">Morbi leo risus</a>
+            <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+            <a href="#" class="list-group-item">Vestibulum at eros</a>
+        </div>
+    </div>
+
+    <!-- 여기 src //로 바꿔줄 것 -->
+    <script type="text/javascript" src="https://apis.daum.net/maps/maps3.js?apikey=34d97112082d89fb861ca33f543ad02c&libraries=services"></script>
+    <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "sourceMap": true
+    },
+    "files":[
+        "node_modules/@types/jquery/index.d.ts",
+        "src/index.ts",
+        "src/map.ts"
+    ]
+}
